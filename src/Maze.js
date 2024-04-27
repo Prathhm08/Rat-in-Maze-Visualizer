@@ -7,8 +7,8 @@ import Typography from "@mui/material/Typography";
 import classes from "./Maze.module.css";
 
 function Maze() {
-  const rows = 5;
-  const columns = 3;
+  const rows = 4;
+  const columns = 4;
   const matrix = Array(rows)
     .fill()
     .map(() => Array(columns).fill(0));
