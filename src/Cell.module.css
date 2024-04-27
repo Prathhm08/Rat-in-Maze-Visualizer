@@ -1,0 +1,10 @@
+.paper {
+  padding: 10px; /* Default padding of 16px */
+  text-align: center;
+  color: var(--text-color, black); /* Default text color of black */
+  background-color: var(
+    --background-color,
+    white
+  ); /* Default background color of white */
+  border: 2px solid black;
+}
